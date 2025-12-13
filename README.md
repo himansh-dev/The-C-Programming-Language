@@ -27,3 +27,11 @@ gcc 3-6.c 1-19.c -o c.out
 
 ```
 
+Compilation of all files consisting "#include <math.h>" :
+
+```bash
+
+gcc filename.c -lm
+
+```
+
