@@ -15,9 +15,15 @@
 
 ## Compilation:
 
-Compilation of 3-4.c:
+Compilation of 3-4.c, 3-5.c, 3-6.c:
+
 ```bash
 
 gcc 3-4.c 1-19.c -o a.out
 
+gcc 3-5.c 1-19.c -o b.out
+
+gcc 3-6.c 1-19.c -o c.out
+
 ```
+
