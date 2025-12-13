@@ -12,3 +12,12 @@
 - THE COMPILER I AM USING IS GCC.
 - I AM ALSO STILL LEARNING THE BASICS OF WRITING A MARKDOWN FILE.
 - I AM USING MICRO FOR CODE WRITING AND EDITING.
+
+## Compilation:
+
+Compilation of 3-4.c:
+'''bash
+
+gcc 3-4.c 1-19.c -o a.out
+
+'''

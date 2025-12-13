@@ -3,21 +3,21 @@
 
 void function(char line[]);
 
-int main()
-{
-	int c, index = 0;
-	char line[10000];
-
-	while ((c = getchar()) != EOF) {
-		if (c != '\n') {
-			line[index++] = c;
-		} else {
-			line[index] = '\0';
-			index = 0;
-			function(line);
-		}
-	}
-}
+// int main()
+// {
+// 	int c, index = 0;
+// 	char line[10000];
+// 
+// 	while ((c = getchar()) != EOF) {
+// 		if (c != '\n') {
+// 			line[index++] = c;
+// 		} else {
+// 			line[index] = '\0';
+// 			index = 0;
+// 			function(line);
+// 		}
+// 	}
+// }
 
 void function(char line[]) {
 	size_t length = strlen(line);
