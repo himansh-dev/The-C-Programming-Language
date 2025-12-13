@@ -16,8 +16,8 @@
 ## Compilation:
 
 Compilation of 3-4.c:
-'''bash
+```bash
 
 gcc 3-4.c 1-19.c -o a.out
 
-'''
+```
